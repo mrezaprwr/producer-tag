@@ -1,0 +1,28 @@
+/*
+*/
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.2rem;
+    margin-top: 1rem; 
+}
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.photos {
+    display: grid;
+    margin: 2rem;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+    text-align: center;
+}
+.photo {
+    cursor: pointer;
+}
